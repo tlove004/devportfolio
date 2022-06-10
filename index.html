@@ -88,65 +88,72 @@ applying machine learning techniques and specifying, architecting, and construct
             <div data-date="September 2015 – Present">
                 <h3>University of California, Riverside (UCR)</h3>
                 <h4>Computer Science Researcher</h4>
-                <p>
+		<ul>
+			
+                <li>
                    Specified, designed, and implemented MediSyn, a modular pharmaceutical discovery and synthesis framework which provides researchers efficient stochastic exploration and verification of candidate pharmaceuticals via Markov chain Monte Carlo simulation. Candidate spaces – represented by probabilistic context-free
 grammars – are synthesized through the application of state-of-the art methods in machine learning.
-                </p>
-		<p>
+                </li>
+		<li>
 		   Collaborated on the design, specification, and implementation <a href="https://github.com/lilott8/bioscript">BioScript</a>, a domain-specific-language and
 chemical typesystem (ChemType) enabling biologists and chemists to express experiments for automated
 design and safe execution, and a utilization of ChemType as ChemStor, a chemical storage and disposal
 system that provides sound safety guarantees through the use of the z3 SMT solver.	
-	        </p>
-		 <p>
+	        </li>
+		 <li>
 			 Defined the time- and resource-constrained scheduling problem for programmable laboratories-on-a-chip,
 which enforces fine-tuned timing constraints on timing-sensitive chemical interactions specified in a high
 level language for resource-constrained reconfigurable architectures lacking external storage; additionally,
 an optimal ILP formulation and an efficient heuristic scheduler were implemented to solve this problem.
-	        </p>
-		<p>
+	        </li>
+		<li>
 			Developed a <a href="#">NSGA-II-based</a> placement algorithm for digital microfluidic biochip synthesis, which enables
 the placement of operations in complex control-directed chemical programs to be optimized across basic
 block boundaries through a guided stochastic search.
-	        </p>
-		<p>
+	        </li>
+		<li>
 			Designed and developed a performance-optimizing compiler for cyber-physical digital microfluidic biochips
 which reduces or eliminates droplet routing requirements through a coalescing mechanism on an interference graph and reduces overall program latency by exploring the complex relation between operation-level
 parallelism and reconfigurable register sizes.
-		</p>
-		<p>
+		</li>
+		<li>
 			Managed a team of 10-15 computer science undergraduate and graduate researchers, teaching them
 best practices for writing production-quality code through code reviews, writing test cases, and specifying
 direction to further research endeavors.
-	    </p>
-            </div>
+	    </li>
+            </ul>
+		</div>
 
             <div data-date="March 2020 - June 2020">
                 <h3>UCR</h3>
                 <h4>Computer Science Teaching Assistant</h4>
-                <p>
-aught a traditionally in-person upper division embedded systems programming laboratory to 50 students online, introducing hands-on experience with structured programming techniques targeting the ATMega1284
+		    <ul>
+                <li>
+Taught a traditionally in-person upper division embedded systems programming laboratory to 50 students online, introducing hands-on experience with structured programming techniques targeting the ATMega1284
 microcontroller.
-		    </p>
-		    <p>
+		    </li>
+		    <li>
 		    Developed tutorials and cross-platform troubleshooting guides for setting up a UCR-developed embedded
 systems development environment at home.
-		    </p>
-		    <p>
+		    </li>
+		    <li>
 		    Developed automated grading tools for concurrent synchronous embedded systems assignments
-		    </p>
+		    </li>
+		    </ul>
             </div>
 
             <div data-date="June 2021 – August 2021">
                 <h3>UCR</h3>
                 <h4>Computer Science Adjunct Instructor</h4>
-                <p>
+                <ul>
+			<li>
 			Taught an upper-division computer science course focused on the design and programming of many concurrent synchronous state machines to capture complex real-world cyber-physical embedded systems applications.
-		    </p>
-		    <p>
+		    </li>
+		    <li>
 			    Advised a doctoral student in pedagogical methods for upper-division computer science courses that are
 not easily adapted for online instruction.
-                </p>
+                </li>
+		    </ul>
             </div>
         </div>
     </div>
@@ -167,11 +174,25 @@ not easily adapted for online instruction.
             <h4>Master of Science in Computer Science</h4>
         </div>
         <!-- End .education-block -->
+	    
+    <div class="education-block">
+            <h3>University of California, Riverside</h3>
+            <span class="education-date">2017</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+        </div>
+        <!-- End .education-block -->
+	    
+	    <div class="education-block">
+            <h3>Calvary Chapel Bible College</h3>
+            <span class="education-date">2015</span>
+            <h4>Bachelor of Arts in Biblical Theology</h4>
+        </div>
+        <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Course Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -180,10 +201,9 @@ not easily adapted for online instruction.
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
+                        <h3>Compiler Construction</h3>
+                        <p>Built an llvm pass to conduct edge and path profiling
+			</p>
                         <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
@@ -196,10 +216,9 @@ not easily adapted for online instruction.
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Advanced Operating Systems</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
+Implemented various process scheduling methods and support for multithreading in MIT’s open source version 6 of the UNIX operating system.                        </p>
                         <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
@@ -213,32 +232,20 @@ not easily adapted for online instruction.
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
             <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+	    <li>JetBrains IDEs</li>
+            <li>Tensorflow-keras</li>
+            <li>RDBMS</li>
+	    <li>Spark/Hadoop MapReduce</li>
+            <li>Gurobi</li>
+            <li>z3</li>
+	    <li>Compilers</li>
+            <li>Language Design</li>
+            <li>Applied Data Science</li>
+	    <li>Optimization</li>
+            <li>Cyber-physical Systems</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -246,7 +253,7 @@ not easily adapted for online instruction.
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/tyson.loveless@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -262,7 +269,7 @@ not easily adapted for online instruction.
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2022</span> TYSON LOVELESS
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -273,23 +280,12 @@ not easily adapted for online instruction.
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/tlove004" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/tysonloveless/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
+          
                     </ul>
                 </div>
             </div>
